@@ -1,0 +1,25 @@
+num = int(input("digite um numero: "))
+
+if num % 2 == 0:
+   print("deu certo é divisivel por 2")
+  
+else:
+   print("Não deu certo, não é divisivel por 2")
+  
+
+if num % 3 == 0:
+   print("deu certo, é divisivel por 3")
+else:
+   print("Não deu certo, não é divisivel por 3")
+  
+
+if num % 5 == 0:
+   print("deu certo, é divisivel por 5")
+else:
+   print("Não deu certo,não é divisivel por 5")
+  
+if num % 7 == 0:
+   print("deu certo, é divisivel por 7")   
+else:
+   print("Não deu certo, não é divisivel por 7")
+  
