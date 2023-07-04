@@ -1,0 +1,85 @@
+CONTA = 999
+SENHA = 456
+SALDO = 100
+
+# Solicitar número da conta, senha e valor a ser sacado ao usuário
+numero_conta = int(input("Digite o número da conta: "))
+senha = int(input("Digite a senha: "))
+valor_saque = float(input("Digite o valor a ser sacado: "))
+
+# Verificar se os dados da conta e senha estão corretos
+if numero_conta == CONTA and senha == SENHA:
+    # Verificar se há saldo suficiente para o saque
+    if valor_saque <= SALDO:
+        SALDO -= valor_saque
+        print("Saque realizado com sucesso!")
+        print("Novo saldo: R$", SALDO)
+    else:
+        print("Saldo insuficiente para o saque.")
+else:
+    print("Dados da conta ou senha incorretos.")
+
+
+
+--------------------
+
+def soma(a, b):
+    return a + b
+
+def subtracao(a, b):
+    return a - b
+
+def multiplicacao(a, b):
+    return a * b
+
+def divisao(a, b):
+    return a / b
+
+print("Menu de Operações:")
+print("1 - Adição")
+print("2 - Subtração")
+print("3 - Multiplicação")
+print("4 - Divisão")
+
+opcao = int(input("Escolha uma opção (1-4): "))
+
+# Verificar se a opção é válida
+if opcao < 1 or opcao > 4:
+    print("Opção inválida. Programa encerrado.")
+else:
+    valor1 = float(input("Digite o primeiro valor: "))
+    valor2 = float(input("Digite o segundo valor: "))
+
+    if opcao == 1:
+        resultado = soma(valor1, valor2)
+    elif opcao == 2:
+        resultado = subtracao(valor1, valor2)
+    elif opcao == 3:
+        resultado = multiplicacao(valor1, valor2)
+    else:
+        # Verificar se o segundo valor é zero para evitar divisão por zero
+        if valor2 == 0:
+            print("Divisão por zero não é permitida. Programa encerrado.")
+        else:
+            resultado = divisao(valor1, valor2)
+            print("Resultado:", resultado)
+
+
+-----------------
+
+MATRICULA1 = "987"
+SENHA1 = "789"
+MATRICULA2 = "321"
+SENHA2 = "123"
+MATRICULA3 = "654"
+SENHA3 = "456"
+
+matricula = input("Digite o número da matrícula: ")
+senha = input("Digite a senha: ")
+
+if (matricula == MATRICULA1 and senha == SENHA1) or (matricula == MATRICULA2 and senha == SENHA2) or (matricula == MATRICULA3 and senha == SENHA3):
+    print("Acesso liberado")
+else:
+    print("Acesso negado")
+
+
