@@ -1,0 +1,36 @@
+Desenvolva o programa SAQUE que leva em consideração uma única conta válida. Primeiramente, crie variáveis com os seguintes valores: CONTA = 999, SENHA = 456, SALDO = 100. Em seguida, o programa deve solicitar ao usuário o numero da conta, a senha e o valor a ser sacado. O programa só deve liberar o dinheiro se os dados da conta e da senha estiverem corretos e se houver saldo suficiente para tal. Exiba mensagens de erro e/ou saque realizado com sucesso conforme necessário.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Desenvolva um programa que exiba para o usuário um menu com 4 opções de operações matemáticas (adição, subtração, multiplicação e divisão). Esse menu será exibido no terminal do computador em formato textual. Em seguida, o usuário deve informar uma das opções além de dois valores numéricos (não necessariamente inteiros) que serão utilizados como os operandos da operação. Por fim, o programa deve exibir no terminal o resultado da operação.
+
+
+
+
+
+
+
+
+
+
+
+
+
+PROGRAMA RELATORIO: Um software comercial necessita de um sistema de segurança que protege a emissão de relatórios confidenciais. O software deve solicitar o numero da matrícula e a senha do funcionário e só então liberar o acesso. Implemente este sistema usando operadores lógicos E e OU de forma a permitir a entrada para os seguintes dados:
+
+MATRICULA1 = “987” SENHA1 = “789”
+MATRICULA2 = “321” SENHA2 = “123”
+MATRICULA3 = “654” SENHA3 = “456”
+Se o usuário informar dados associados a um desses usuários, o programa deve exibir "Acesso liberado". Caso contrário, o programa deve exibir "Acesso Negado".
+
